@@ -1,3 +1,6 @@
 .vs
 *.VC.db
 *.VC.opendb
+
+[Dd]ebug/
+[Rr]elease/
