@@ -7,8 +7,6 @@ int FindNextBiggerNumber(int number)
 	return ones * 10 + tens;
 }
 
-}
-
 TEST_CASE("Find next bigger number with the same digits", "[2-digits: 12]")
 {
 	REQUIRE(FindNextBiggerNumber(12) == 21);
