@@ -1,6 +1,6 @@
 #include "../catch.hpp"
 
-int FindNextBiggerNumber(int number)
+unsigned int FindNextBiggerNumber(unsigned int number)
 {
 	const auto ones = number % 10;
 	const auto tens = number / 10 % 10;
